@@ -1,3 +1,3 @@
 GECA
 ====
-Hello, i'm here to share everything. Less my ass. 
+Everyone wanted to be free then they create "freedom", so let's be free!!!
