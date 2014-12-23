@@ -5,7 +5,7 @@ import signal
 a = "abcdefghijklm"
 b = "nopqrstuvxwyz"
 
-c = list (input("Digite aqui o seu texto limpo: "))
+c = list (input("Digite aqui o seu texto limpo: ")) #converte a str em lista para melhor funcionalidade no IF
 
 for x in range(0, len(c)):
 	for y in range(0, 12):
@@ -15,5 +15,5 @@ for x in range(0, len(c)):
 			if c[x] == b[y]:
 				c[x] = a[y]
 
-c = "".join(c)
+c = "".join(c) #converte a lista em string novamente
 print("Seu texto cifrado eh: " + c)
